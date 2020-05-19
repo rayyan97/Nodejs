@@ -1,0 +1,22 @@
+<html>
+  <title></title>
+  <head>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    {{>header}}
+    <h1>{{title}}</h1>
+    <form>
+      <input placeholder="location">
+      <button>search</button>
+    </form>
+    <p id="temp"></p>
+    <p id="min"></p>
+    <p id="max"></p>
+    <p id="desc"></p>
+    <p id="humidity"></p>
+    <p id="city"></p>
+    {{>footer}}
+    <script src="/js/app.js"></script>
+  </body>
+</html>
